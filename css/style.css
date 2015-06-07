@@ -40,12 +40,12 @@ a:hover {
 .post {
   padding: 10px 0;
   margin: 10px auto;
-  max-width: 650px;
+  max-width: 800px;
 
 }
 
 .img-responsive {
-  max-width: 95%;
+  max-width: 99%;
   margin: 0 auto;
 }
 
