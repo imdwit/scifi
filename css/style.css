@@ -1,0 +1,80 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+h1, h2, h3, h4 {
+  font-family: 'Futura';
+}
+p {
+  font-weight: 300;
+}
+a {
+  opacity: 0.86;
+}
+a:hover {
+  opacity: 0.5;
+}
+
+
+.outline-r{
+  outline: 1px solid red;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.post {
+  padding: 10px 0;
+  margin: 10px auto;
+  max-width: 650px;
+
+}
+
+.img-responsive {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.nav {
+  display: block;
+  list-style: none;
+}
+
+.nav.inline li {
+  margin-right: 1%;
+  display: inline-block;
+}
+
+.nav_link > a {
+  display: block;
+}
+
+
+.spinner {
+    border: 2px solid #000;
+    display: inline-block;
+    padding: 0.25em;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
